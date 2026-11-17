@@ -1,0 +1,464 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Jason German — Aeronautical Engineering student with additional study in Artificial Intelligence and Deep Learning.">
+  <meta name="theme-color" content="#071b2d">
+  <title>Jason German | AeroSky24</title>
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="AeroSky24 home" data-nav-trigger="home">
+      <span class="brand-mark">A<span>24</span></span>
+      <span class="brand-name">AeroSky<span>24</span></span>
+    </a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="site-nav">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav" id="site-nav" aria-label="Main navigation">
+      <a href="#home" class="nav-link is-active" data-target="home" aria-current="page">Home</a>
+      <a href="#about" class="nav-link" data-target="about">About</a>
+      <a href="#projects" class="nav-link" data-target="projects">Projects</a>
+      <a href="#resume" class="nav-link" data-target="resume">Resume</a>
+      <a href="#contact" class="nav-link nav-contact" data-target="contact">Contact</a>
+
+      <div class="nav-social" aria-label="Social links">
+        <a class="nav-social-link" href="mailto:jaygerman221@gmail.com" aria-label="Email Jason German" title="Email Jason German">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path d="M3 6.75A2.75 2.75 0 0 1 5.75 4h12.5A2.75 2.75 0 0 1 21 6.75v10.5A2.75 2.75 0 0 1 18.25 20H5.75A2.75 2.75 0 0 1 3 17.25V6.75Zm2.25-.25a1.25 1.25 0 0 0-1.25 1.25v.3l7.25 5.18a1.25 1.25 0 0 0 1.5 0l7.25-5.18v-.3a1.25 1.25 0 0 0-1.25-1.25H5.25Zm14 3.76-6.72 4.8a2.75 2.75 0 0 1-3.06 0L4.75 10.26v7a1.25 1.25 0 0 0 1.25 1.25h12.5a1.25 1.25 0 0 0 1.25-1.25v-7Z"/>
+          </svg>
+        </a>
+        <a class="nav-social-link" href="https://github.com/J6Aero" target="_blank" rel="noopener noreferrer" aria-label="Visit Jason German on GitHub" title="GitHub">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path d="M12 2.25A9.75 9.75 0 0 0 8.46 21.7c.49.09.67-.22.67-.48v-1.7c-2.72.6-3.3-1.3-3.3-1.3-.45-1.16-1.1-1.47-1.1-1.47-.9-.63.07-.62.07-.62 1 .07 1.53 1.04 1.53 1.04.9 1.53 2.35 1.09 2.92.84.09-.65.35-1.09.64-1.34-2.17-.25-4.45-1.1-4.45-4.86 0-1.07.38-1.94 1.01-2.63-.1-.25-.44-1.3.1-2.7 0 0 .83-.27 2.72 1.03A9.4 9.4 0 0 1 12 7.1c.84 0 1.68.12 2.46.35 1.88-1.3 2.71-1.03 2.71-1.03.54 1.4.2 2.45.1 2.7.63.69 1.01 1.56 1.01 2.63 0 3.77-2.29 4.6-4.47 4.85.36.32.68.95.68 1.92v2.85c0 .26.18.58.68.48A9.75 9.75 0 0 0 12 2.25Z"/>
+          </svg>
+        </a>
+        <a class="nav-social-link" href="https://www.linkedin.com/in/jason-german-33a5923b2/" target="_blank" rel="noopener noreferrer" aria-label="Visit Jason German on LinkedIn" title="LinkedIn">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path d="M6.94 8.5A1.56 1.56 0 1 1 6.94 5.4a1.56 1.56 0 0 1 0 3.1ZM5.5 9.9h2.9V18H5.5V9.9Zm5.05 0h2.77v1.13h.04c.39-.73 1.33-1.5 2.74-1.5 2.94 0 3.48 1.93 3.48 4.45V18h-2.9v-16.1c0-1.1-.02-2.52-1.53-2.52-1.54 0-1.77 1.2-1.77 2.44V18h-2.9V9.9Z"/>
+          </svg>
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="page-shell">
+    <section class="content-panel is-visible" id="home" data-panel="home" aria-hidden="false">
+      <div class="section-wrap home-shell">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="pulse"></span> AEROSPACE ENGINEERING PORTFOLIO</p>
+          <h1>Aeronautical Engineering Student<br><span>| Aerospace Design | Artificial Intelligence</span></h1>
+          <p class="hero-intro">I am an Aeronautical Engineering student at Parul University, passionate about aircraft design, aerospace technology and artificial intelligence. I enjoy developing practical engineering projects and exploring how AI can contribute to the future of aviation.</p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#contact" data-nav-trigger="contact">Get in touch <span>↗</span></a>
+            <a class="button button-ghost" href="#about" data-nav-trigger="about">Explore my profile</a>
+            <a class="button button-ghost" href="assets/Jason-German-CV.pdf" download>Download CV <span>↓</span></a>
+          </div>
+
+          <div class="hero-meta">
+            <span><i class="meta-dot"></i> Based in Vadodara, India</span>
+            <span>Open to learning opportunities</span>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="portrait-frame">
+            <div class="portrait-placeholder" id="portraitFallback">
+              <span>JG</span>
+              <small>PROFILE PHOTO</small>
+            </div>
+            <img id="profilePhoto" src="assets/jason-german.jpg" alt="Portrait of Jason German">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-panel" id="about" data-panel="about" aria-hidden="true">
+      <div class="section-wrap">
+        <div class="section-heading">
+          <p class="eyebrow">ABOUT</p>
+          <h2>Engineering is a<br><span>continuous journey.</span></h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-lead">
+            <p class="large-copy">I am an Aeronautical Engineering student at Parul University, India, with an additional academic focus on Neural Networks and Deep Learning.</p>
+          </div>
+          <div class="about-detail">
+            <p>My academic interests include aircraft design, aerodynamics, propulsion, aircraft structures, aircraft performance, materials and computational fluid dynamics. I am also learning Python, machine learning and deep learning.</p>
+            <p>Before university, I completed a two-year Trade Certificate in Diesel Heavy Equipment Fitting at Mt Hagen Technical College in Papua New Guinea. I have also gained practical exposure through my family's automotive spare-parts business.</p>
+            <p>I am seeking an opportunity to learn from engineering teams, develop practical skills and contribute responsibly as an intern.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-panel" id="resume" data-panel="resume" aria-hidden="true">
+      <div class="section-wrap resume-shell">
+        <div class="resume-layout">
+          <div class="resume-brief">
+            <p class="eyebrow">RESUME</p>
+            <h2>My <span>Resume</span></h2>
+            <p>I am an Aeronautical Engineering student at Parul University, passionate about aircraft design, aerospace technology and artificial intelligence. My academic and practical experience has focused on engineering fundamentals, design thinking, problem-solving, and the use of digital tools to explore modern aerospace and AI applications.</p>
+            <ul class="resume-summary-list">
+              <li><strong>Current focus:</strong> Aerospace engineering, aircraft design, computational analysis, and AI-supported engineering exploration.</li>
+              <li><strong>Academic foundation:</strong> Aerodynamics, propulsion, structures, materials, aircraft performance, and machine learning.</li>
+              <li><strong>Professional context:</strong> Technical training, family business support, and leadership within university activities.</li>
+            </ul>
+            <div class="resume-actions">
+              <a class="button button-primary" href="assets/Jason-German-CV.pdf" download>Download CV <span>↓</span></a>
+              <a class="button button-ghost dark" href="#contact" data-nav-trigger="contact">Contact me</a>
+            </div>
+          </div>
+
+          <div class="resume-accordion" aria-label="Resume details">
+            <div class="resume-accordion-item is-open" data-resume-accordion="education">
+              <button class="resume-accordion-trigger" type="button" aria-expanded="true" aria-controls="resume-education-panel" id="resume-education-trigger">
+                <span>Education</span>
+                <span class="resume-accordion-icon" aria-hidden="true">+</span>
+              </button>
+              <div class="resume-accordion-panel" id="resume-education-panel" role="region" aria-labelledby="resume-education-trigger">
+                <div class="resume-accordion-inner">
+                  <div class="resume-detail-block">
+                    <p class="resume-detail-header">Academic background</p>
+                    <ul class="resume-detail-list">
+                      <li><strong>B.Tech in Aeronautical Engineering</strong> — Parul University, Vadodara, Gujarat, India.</li>
+                      <li><strong>Diploma in Neural Network and Deep Learning</strong> — Parul University, dual degree programme.</li>
+                      <li><strong>Trade Certificate in Diesel Heavy Equipment Fitting (DHEF)</strong> — Mt Hagen Technical College, Papua New Guinea.</li>
+                    </ul>
+                  </div>
+                  <div class="resume-detail-block">
+                    <p class="resume-detail-header">Academic achievements</p>
+                    <div class="resume-detail-grid">
+                      <div class="resume-insight">
+                        <h4>First year</h4>
+                        <p>GPA: 4.00 / 4.00 — Distinctions in all nine subjects.</p>
+                      </div>
+                      <div class="resume-insight">
+                        <h4>Second year</h4>
+                        <p>GPA: 3.57 / 4.00 — Four distinctions and three credits.</p>
+                      </div>
+                      <div class="resume-insight">
+                        <h4>Scholarship</h4>
+                        <p>Academic Excellence Scholarship (AES) under the PNG TESAS programme.</p>
+                      </div>
+                      <div class="resume-insight">
+                        <h4>Languages</h4>
+                        <p>English (Intermediate) and Tok Pisin (Fluent).</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="resume-accordion-item" data-resume-accordion="work-experience">
+              <button class="resume-accordion-trigger" type="button" aria-expanded="false" aria-controls="resume-work-panel" id="resume-work-trigger">
+                <span>Work Experience</span>
+                <span class="resume-accordion-icon" aria-hidden="true">+</span>
+              </button>
+              <div class="resume-accordion-panel" id="resume-work-panel" role="region" aria-labelledby="resume-work-trigger">
+                <div class="resume-accordion-inner">
+                  <div class="resume-detail-block">
+                    <p class="resume-detail-header">Practical experience</p>
+                    <ul class="resume-detail-list">
+                      <li><strong>Family Automotive Spare-Parts Business</strong> — Papua New Guinea. Assisted with selling vehicle spare parts, identifying components, helping customers select parts, and supporting mechanics with automobile-related tasks.</li>
+                      <li><strong>College Workshop Practice</strong> — Mt Hagen Technical College. Participated in engine dismantling and reassembly, and studied engine systems, vehicle systems, workshop technology, and auto electrical training.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="resume-accordion-item" data-resume-accordion="leadership">
+              <button class="resume-accordion-trigger" type="button" aria-expanded="false" aria-controls="resume-leadership-panel" id="resume-leadership-trigger">
+                <span>Leadership &amp; Extracurriculars</span>
+                <span class="resume-accordion-icon" aria-hidden="true">+</span>
+              </button>
+              <div class="resume-accordion-panel" id="resume-leadership-panel" role="region" aria-labelledby="resume-leadership-trigger">
+                <div class="resume-accordion-inner">
+                  <div class="resume-detail-block">
+                    <p class="resume-detail-header">University involvement</p>
+                    <ul class="resume-detail-list">
+                      <li><strong>Secretary</strong> — Parul University Christian Fellowship. Organises fellowship activities, prepares schedules and programmes, communicates with members, and coordinates meetings and events.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="resume-accordion-item" data-resume-accordion="skills">
+              <button class="resume-accordion-trigger" type="button" aria-expanded="false" aria-controls="resume-skills-panel" id="resume-skills-trigger">
+                <span>Skills</span>
+                <span class="resume-accordion-icon" aria-hidden="true">+</span>
+              </button>
+              <div class="resume-accordion-panel" id="resume-skills-panel" role="region" aria-labelledby="resume-skills-trigger">
+                <div class="resume-accordion-inner">
+                  <div class="resume-detail-block">
+                    <div class="resume-detail-grid">
+                      <div class="resume-insight">
+                        <h4>Aeronautical engineering</h4>
+                        <p>Aerodynamics, propulsion, structures, performance, materials, and structural dynamics.</p>
+                      </div>
+                      <div class="resume-insight">
+                        <h4>CAD &amp; simulation</h4>
+                        <p>SolidWorks 2026, CATIA V5, and ANSYS with ongoing development.</p>
+                      </div>
+                      <div class="resume-insight">
+                        <h4>Programming</h4>
+                        <p>Python and Visual Studio Code at an intermediate level.</p>
+                      </div>
+                      <div class="resume-insight">
+                        <h4>AI &amp; data</h4>
+                        <p>Artificial intelligence, machine learning, neural networks, deep learning, and data analysis.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="resume-accordion-item" data-resume-accordion="certifications">
+              <button class="resume-accordion-trigger" type="button" aria-expanded="false" aria-controls="resume-certifications-panel" id="resume-certifications-trigger">
+                <span>Certifications</span>
+                <span class="resume-accordion-icon" aria-hidden="true">+</span>
+              </button>
+              <div class="resume-accordion-panel" id="resume-certifications-panel" role="region" aria-labelledby="resume-certifications-trigger">
+                <div class="resume-accordion-inner">
+                  <div class="resume-detail-block">
+                    <p class="resume-detail-header">Professional training</p>
+                    <ul class="resume-detail-list">
+                      <li><strong>Computational Fluid Dynamics (CFD) Certificate</strong> — Parul University, Aeronautical Engineering Faculty.</li>
+                    </ul>
+                  </div>
+
+                  <div class="resume-detail-block">
+                    <div class="certificate-card">
+                      <div class="certificate-card-header">
+                        <div>
+                          <p class="certificate-card-label">Course</p>
+                          <h4>Introduction to Internet of Things</h4>
+                        </div>
+                        <span class="certificate-pill">Elite</span>
+                      </div>
+
+                      <div class="certificate-meta-list">
+                        <div class="certificate-meta-item">
+                          <span class="certificate-meta-label">Institution</span>
+                          <span class="certificate-meta-value">NPTEL – Indian Institute of Technology (IIT) Kharagpur</span>
+                        </div>
+                        <div class="certificate-meta-item">
+                          <span class="certificate-meta-label">Score</span>
+                          <span class="certificate-meta-value">70%</span>
+                        </div>
+                        <div class="certificate-meta-item">
+                          <span class="certificate-meta-label">Duration</span>
+                          <span class="certificate-meta-value">12 weeks</span>
+                        </div>
+                        <div class="certificate-meta-item">
+                          <span class="certificate-meta-label">Completion</span>
+                          <span class="certificate-meta-value">July–October 2026</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-panel" id="projects" data-panel="projects" aria-hidden="true">
+      <div class="section-wrap">
+        <div class="section-heading">
+          <p class="eyebrow">PROJECTS</p>
+          <h2>Engineering work<br><span>in progress.</span></h2>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-visual project-visual--uav">
+              <span class="project-badge">Fixed-Wing UAV</span>
+              <strong>UAV</strong>
+            </div>
+            <div class="project-body">
+              <div class="project-header">
+                <h3>AeroSky24 UAV-01</h3>
+                <span class="project-status status-progress">In Progress</span>
+              </div>
+              <p><strong>Objective:</strong> Continue developing a fixed-wing electric UAV concept focused on aerial-system architecture, structural design and iterative engineering refinement.</p>
+              <div class="project-tech">
+                <span>UAV</span>
+                <span>Design</span>
+                <span>Systems</span>
+              </div>
+              <button class="project-link" type="button" disabled aria-label="Project details coming soon">View Details</button>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-visual project-visual--ai">
+              <span class="project-badge">NASA C-MAPSS FD001</span>
+              <strong>AI</strong>
+            </div>
+            <div class="project-body">
+              <div class="project-header">
+                <h3>AeroSky24 HealthAI</h3>
+                <span class="project-status status-research">Research Prototype</span>
+              </div>
+              <p><strong>Objective:</strong> Explore health-assessment modelling and predictive maintenance using the NASA C-MAPSS FD001 dataset as a research prototype.</p>
+              <div class="project-tech">
+                <span>Python</span>
+                <span>AI</span>
+                <span>Diagnostics</span>
+              </div>
+              <button class="project-link" type="button" data-healthai-toggle aria-expanded="false" aria-controls="healthai" aria-label="View HealthAI research details">View Research</button>
+            </div>
+          </article>
+        </div>
+
+        <section class="healthai-section" id="healthai" aria-labelledby="healthai-heading" aria-hidden="true">
+          <div class="section-heading">
+            <p class="eyebrow">PROJECT DETAIL</p>
+            <h2 id="healthai-heading">AeroSky24 HealthAI<br><span>research study.</span></h2>
+          </div>
+
+          <div class="healthai-overview-grid">
+            <div class="healthai-overview">
+              <p class="healthai-intro">AeroSky24 HealthAI investigates aircraft engine Remaining Useful Life (RUL) prediction using the NASA C-MAPSS FD001 dataset. The project explores how machine-learning methods can support predictive maintenance by learning from operational sensor data and engine degradation trends.</p>
+              <p>The research focuses on understanding the data, preparing the modelling task, and comparing how different algorithms respond to the same engine-health problem. It does not claim a completed production system or a single best-performing model.</p>
+              <ul class="healthai-model-list">
+                <li>Random Forest</li>
+                <li>ANN</li>
+                <li>LSTM</li>
+              </ul>
+            </div>
+
+            <aside class="healthai-summary">
+              <div class="summary-item">
+                <span>Dataset</span>
+                <strong>NASA C-MAPSS FD001</strong>
+              </div>
+              <div class="summary-item">
+                <span>Focus</span>
+                <strong>Engine RUL Prediction</strong>
+              </div>
+              <div class="summary-item">
+                <span>Approach</span>
+                <strong>ML &amp; Deep Learning</strong>
+              </div>
+            </aside>
+          </div>
+
+          <div class="healthai-detail-panels">
+            <article class="healthai-card">
+              <h3>Research objectives</h3>
+              <p>Explore how engine health can be modelled from sensor-driven degradation patterns and assess how different algorithms interpret the same prognostic task.</p>
+            </article>
+            <article class="healthai-card">
+              <h3>Data preparation</h3>
+              <p>Review engine cycle progression, organise relevant variables, and define a suitable target for Remaining Useful Life estimation using the NASA dataset.</p>
+            </article>
+            <article class="healthai-card">
+              <h3>Models investigated</h3>
+              <p>Random Forest, Artificial Neural Network (ANN), and Long Short-Term Memory (LSTM) are all explored as part of the research workflow.</p>
+            </article>
+          </div>
+
+          <div class="healthai-gallery" aria-label="HealthAI research visualisations">
+            <figure class="healthai-figure">
+              <a href="projects/healthai/actual_vs_predicted.png" target="_blank" rel="noopener noreferrer">
+                <img src="projects/healthai/actual_vs_predicted.png" alt="Actual versus predicted remaining useful life chart" loading="lazy">
+              </a>
+              <figcaption>
+                <h3>Actual vs Predicted</h3>
+                <p>Comparison between observed engine degradation trends and model predictions used to interpret remaining useful life behaviour.</p>
+              </figcaption>
+            </figure>
+
+            <figure class="healthai-figure">
+              <a href="projects/healthai/ann_actual_vs_predicted.png" target="_blank" rel="noopener noreferrer">
+                <img src="projects/healthai/ann_actual_vs_predicted.png" alt="ANN actual versus predicted chart" loading="lazy">
+              </a>
+              <figcaption>
+                <h3>ANN Actual vs Predicted</h3>
+                <p>Shows how the neural-network approach tracks the actual degradation trajectory across engine cycles.</p>
+              </figcaption>
+            </figure>
+
+            <figure class="healthai-figure">
+              <a href="projects/healthai/engine_84_error.png" target="_blank" rel="noopener noreferrer">
+                <img src="projects/healthai/engine_84_error.png" alt="Engine 84 prediction error plot" loading="lazy">
+              </a>
+              <figcaption>
+                <h3>Engine 84 Error Profile</h3>
+                <p>Illustrates the prediction error pattern for one engine example and highlights where model deviation becomes visible.</p>
+              </figcaption>
+            </figure>
+
+            <figure class="healthai-figure">
+              <a href="projects/healthai/engine_91_error.png" target="_blank" rel="noopener noreferrer">
+                <img src="projects/healthai/engine_91_error.png" alt="Engine 91 prediction error plot" loading="lazy">
+              </a>
+              <figcaption>
+                <h3>Engine 91 Error Profile</h3>
+                <p>Displays the model error behaviour for another engine sequence, supporting comparison across degradation trajectories.</p>
+              </figcaption>
+            </figure>
+
+            <figure class="healthai-figure healthai-figure--wide">
+              <a href="projects/healthai/prediction_error_distribution.png" target="_blank" rel="noopener noreferrer">
+                <img src="projects/healthai/prediction_error_distribution.png" alt="Prediction error distribution chart" loading="lazy">
+              </a>
+              <figcaption>
+                <h3>Prediction Error Distribution</h3>
+                <p>Summarises how residuals are distributed, helping to understand model bias and uncertainty without claiming a definitive performance result.</p>
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="healthai-summary-block">
+            <h3>Current project status</h3>
+            <p>AeroSky24 HealthAI remains a research prototype focused on exploratory diagnostics, model comparison and learning in the aircraft engine prognostics domain.</p>
+          </div>
+
+          <div class="healthai-actions">
+            <button class="healthai-back-link" type="button" data-healthai-collapse>Back to Projects</button>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <section class="content-panel" id="contact" data-panel="contact" aria-hidden="true">
+      <div class="section-wrap">
+        <div class="contact-panel">
+          <div>
+            <p class="eyebrow">CONTACT</p>
+            <h2>Let's connect<br><span>and learn together.</span></h2>
+            <p class="contact-copy">I welcome opportunities to learn, collaborate and gain practical experience in aerospace engineering.</p>
+          </div>
+          <div class="contact-links">
+            <a href="mailto:jaygerman221@gmail.com"><span>Email</span><b>jaygerman221@gmail.com ↗</b></a>
+            <a href="https://www.linkedin.com/in/jason-german-33a5923b2/" target="_blank" rel="noopener"><span>LinkedIn</span><b>Connect with me ↗</b></a>
+            <a href="https://github.com/J6Aero" target="_blank" rel="noopener"><span>GitHub</span><b>View profile ↗</b></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand" href="#home" data-nav-trigger="home"><span class="brand-mark">A<span>24</span></span><span class="brand-name">AeroSky<span>24</span></span></a>
+    <p>© <span id="year"></span> Jason German. Personal engineering portfolio.</p>
+    <a href="#home" class="back-top" data-nav-trigger="home">Back to top ↑</a>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
